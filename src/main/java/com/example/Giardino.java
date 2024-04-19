@@ -12,6 +12,7 @@ public class Giardino {
        
         try {
             while ( (ingressoA == 0) && (ingressoB == 0)) {
+                System.out.println("Entrambi gli ingressi sono pieni " + name + " aspetta");
                wait();
             }
             if(ingressoA == 0)
